@@ -54,21 +54,29 @@ puts number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
-
+# This line will evaluate whether the 4 is less than 9 and print out the result
+# 4 is less than 9 so it should print: true
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This line assigns the integer 3 to the books variable, then evaluates if 4 is less than the value of books, printing the result
+# this should print false because the value of the books variable is 3, which 4 is not less than
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This line assigns 6 to friends and 2 to siblings, then will print the result of the comparison: is the value of
+# the friends variable greater than the value of the siblings variable
+# this should print true as the value of friends(6) is greater than the value of siblings(2)
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# This assigns the value 9 to attendees and 8 to meals, then prints the result of the evaluation:
+# does attendees NOT equal meals
+# this should print true as the value of attendees(9) indeed does not equal the value of meals(8)
 
 #-------------------
 # PART 3: Logical Operators
